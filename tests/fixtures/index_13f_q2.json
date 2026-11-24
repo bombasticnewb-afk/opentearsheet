@@ -1,0 +1,10 @@
+{
+  "directory": {
+    "name": "/Archives/edgar/data/1888888/000188888826000002",
+    "item": [
+      {"name": "0001888888-26-000002-index.htm", "type": "text.gif", "size": ""},
+      {"name": "primary_doc.xml", "type": "text.gif", "size": "2398"},
+      {"name": "sample_infotable_q2.xml", "type": "text.gif", "size": "3101"}
+    ]
+  }
+}

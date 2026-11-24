@@ -1,0 +1,22 @@
+{
+  "cik": "1999999",
+  "entityType": "operating",
+  "sic": "3569",
+  "sicDescription": "General Industrial Machinery & Equipment, NEC",
+  "name": "Example Robotics Inc.",
+  "tickers": ["EXMP"],
+  "exchanges": ["Nasdaq"],
+  "fiscalYearEnd": "1231",
+  "stateOfIncorporation": "DE",
+  "filings": {
+    "recent": {
+      "accessionNumber": ["0001999999-26-000101", "0001999999-26-000099", "0001999999-26-000095", "0001999999-26-000090", "0001999999-26-000088", "0001999999-26-000080", "0001999999-26-000020", "0001999999-25-000300"],
+      "filingDate": ["2026-11-14", "2026-11-07", "2026-11-05", "2026-10-30", "2026-10-29", "2026-09-03", "2026-02-26", "2025-08-15"],
+      "reportDate": ["2026-11-12", "2026-11-05", "2026-11-03", "2026-09-30", "2026-10-29", "2026-09-02", "2025-12-31", "2025-08-13"],
+      "form": ["4", "8-K", "4", "10-Q", "8-K", "4", "10-K", "4"],
+      "items": ["", "5.02,9.01", "", "", "2.02,9.01", "", "", ""],
+      "primaryDocument": ["xslF345X05/form4.xml", "exmp-20261105.htm", "xslF345X05/form4.xml", "exmp-20260930.htm", "exmp-20261029.htm", "xslF345X04/form4.xml", "exmp-20251231.htm", "xslF345X04/form4.xml"],
+      "primaryDocDescription": ["FORM 4", "8-K", "FORM 4", "10-Q", "8-K", "FORM 4", "10-K", "FORM 4"]
+    }
+  }
+}

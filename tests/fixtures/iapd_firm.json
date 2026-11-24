@@ -1,0 +1,13 @@
+{
+  "hits": {
+    "total": 1,
+    "hits": [
+      {
+        "_type": "_doc",
+        "_source": {
+          "iacontent": "{\"basicInformation\":{\"firmId\":160001,\"firmName\":\"SAMPLE CAPITAL MANAGEMENT LLC\",\"otherNames\":[\"SAMPLE CAPITAL\",\"SCM ADVISORS\"],\"iaSECNumber\":\"120001\",\"iaSECNumberType\":\"801\",\"iaScope\":\"ACTIVE\",\"advFilingDate\":\"03/28/2026\",\"hasPdf\":\"Y\"},\"iaFirmAddressDetails\":{\"officeAddress\":{\"street1\":\"100 EXAMPLE PLAZA\",\"city\":\"NEW YORK\",\"state\":\"NY\",\"country\":\"United States\",\"postalCode\":\"10001\"}},\"registrationStatus\":[{\"secJurisdiction\":\"SEC\",\"status\":\"Approved\",\"effectiveDate\":\"6/1/2015\"}],\"noticeFilings\":[{\"jurisdiction\":\"New York\"},{\"jurisdiction\":\"Florida\"},{\"jurisdiction\":\"Texas\"}]}"
+        }
+      }
+    ]
+  }
+}

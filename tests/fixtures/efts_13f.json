@@ -1,0 +1,11 @@
+{
+  "took": 41,
+  "hits": {
+    "total": {"value": 3, "relation": "eq"},
+    "hits": [
+      {"_id": "0001888888-26-000004:primary_doc.xml", "_source": {"ciks": ["0001888888"], "display_names": ["Sample Capital Management LLC  (CIK 0001888888)"], "form": "13F-HR", "file_date": "2026-11-13", "adsh": "0001888888-26-000004"}},
+      {"_id": "0001888888-26-000002:primary_doc.xml", "_source": {"ciks": ["0001888888"], "display_names": ["Sample Capital Management LLC  (CIK 0001888888)"], "form": "13F-HR", "file_date": "2026-08-12", "adsh": "0001888888-26-000002"}},
+      {"_id": "0001666666-26-000010:primary_doc.xml", "_source": {"ciks": ["0001666666"], "display_names": ["SAMPLE PARTNERS FUND LP  (CIK 0001666666)"], "form": "13F-HR", "file_date": "2026-11-10", "adsh": "0001666666-26-000010"}}
+    ]
+  }
+}

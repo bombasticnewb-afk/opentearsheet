@@ -1,0 +1,20 @@
+{
+  "cik": "1888888",
+  "entityType": "other",
+  "sic": "",
+  "sicDescription": "",
+  "name": "Sample Capital Management LLC",
+  "tickers": [],
+  "exchanges": [],
+  "filings": {
+    "recent": {
+      "accessionNumber": ["0001888888-26-000004", "0001888888-26-000003", "0001888888-26-000002"],
+      "filingDate": ["2026-11-13", "2026-09-10", "2026-08-12"],
+      "reportDate": ["2026-09-30", "", "2026-06-30"],
+      "form": ["13F-HR", "SC 13G", "13F-HR"],
+      "items": ["", "", ""],
+      "primaryDocument": ["primary_doc.xml", "sc13g.htm", "primary_doc.xml"],
+      "primaryDocDescription": ["13F-HR", "SC 13G", "13F-HR"]
+    }
+  }
+}
