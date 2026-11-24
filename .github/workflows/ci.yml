@@ -25,3 +25,7 @@ jobs:
         run: pip install -r requirements.txt pytest
       - name: Test (offline, synthetic fixtures only)
         run: pytest -q
+      - name: Check the package builds
+        run: |
+          pip install build
+          python -m build

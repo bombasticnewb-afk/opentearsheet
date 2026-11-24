@@ -1,5 +1,5 @@
 [build-system]
-requires = ["setuptools>=68"]
+requires = ["setuptools>=77"]
 build-backend = "setuptools.build_meta"
 
 [project]
@@ -7,7 +7,7 @@ name = "opentearsheet"
 version = "0.1.0"
 description = "Free, open-source, local-first research memos from SEC EDGAR filings (Form 4, 13F, Form ADV)."
 readme = "README.md"
-license = { text = "Apache-2.0" }
+license = "Apache-2.0"
 requires-python = ">=3.10"
 authors = [{ name = "OpenTearsheet contributors" }]
 keywords = ["sec", "edgar", "form-4", "13f", "form-adv", "insider-trading", "finance", "research", "local-first", "streamlit"]
@@ -15,7 +15,6 @@ classifiers = [
     "Development Status :: 3 - Alpha",
     "Intended Audience :: Financial and Insurance Industry",
     "Intended Audience :: Developers",
-    "License :: OSI Approved :: Apache Software License",
     "Programming Language :: Python :: 3",
     "Topic :: Office/Business :: Financial :: Investment",
 ]
