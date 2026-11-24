@@ -1,0 +1,13 @@
+# Privacy-first defaults for running OpenTearsheet on your own machine.
+
+[browser]
+# Disable Streamlit's anonymous usage statistics.
+gatherUsageStats = false
+
+[server]
+# Only reachable from this computer. Change deliberately if you want LAN access.
+address = "localhost"
+enableXsrfProtection = true
+
+[client]
+toolbarMode = "minimal"

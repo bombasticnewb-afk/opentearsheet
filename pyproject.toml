@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "opentearsheet"
+version = "0.1.0"
+description = "Free, open-source, local-first research memos from SEC EDGAR filings (Form 4, 13F, Form ADV)."
+readme = "README.md"
+license = { text = "Apache-2.0" }
+requires-python = ">=3.10"
+authors = [{ name = "OpenTearsheet contributors" }]
+keywords = ["sec", "edgar", "form-4", "13f", "form-adv", "insider-trading", "finance", "research", "local-first", "streamlit"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Financial and Insurance Industry",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: Apache Software License",
+    "Programming Language :: Python :: 3",
+    "Topic :: Office/Business :: Financial :: Investment",
+]
+# The core library is standard-library only. The UI and hardened XML parsing are extras.
+dependencies = []
+
+[project.optional-dependencies]
+app = ["streamlit>=1.36", "pandas>=2.0", "defusedxml>=0.7"]
+dev = ["pytest>=8"]
+
+[project.scripts]
+opentearsheet = "opentearsheet.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/bombasticnewb-afk/opentearsheet"
+Issues = "https://github.com/bombasticnewb-afk/opentearsheet/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

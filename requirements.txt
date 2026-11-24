@@ -1,0 +1,4 @@
+# Everything needed for `streamlit run app.py`. The core library itself needs only Python 3.10+.
+streamlit>=1.36
+pandas>=2.0
+defusedxml>=0.7
