@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "opentearsheet"
-version = "0.1.0"
+version = "0.1.1"
 description = "Free, open-source, local-first research memos from SEC EDGAR filings (Form 4, 13F, Form ADV)."
 readme = "README.md"
 license = "Apache-2.0"
